@@ -11,11 +11,13 @@ body{
 }
 
 header{
-    margin-top: 0.7rem;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     cursor: pointer;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: fixed;
 }
 
 .navigation{
@@ -116,6 +118,7 @@ header{
     width: 100%;
     text-align: center;
     cursor: pointer;
+    padding-top: 10rem;
 }
 
 .image-category{
@@ -255,7 +258,7 @@ header{
 
 /*Responsivo*/
 
-@media (max-width:1400px){
+@media (max-width:1500px){
 
     .menu{
         display: block;
@@ -267,10 +270,6 @@ header{
         width: 100vw;
         }
 
-    .navigation{
-        width: 60%;
-    }
-
     .conta{
         display: block;
     }
@@ -278,6 +277,8 @@ header{
     img{
         width: 100px;
     }
+
+   
 
     .menu.active .bar:nth-child(2){
         opacity: 0;
@@ -327,9 +328,23 @@ header{
     }
 }
 
-@media (max-width:620px){
-  
+@media (max-width: 1060px){
+    header{
+        width: 100%;
+    }
 
+    .image-category img{
+        width: 100px;
+    }
+
+    .search{
+        width: 400px;
+    }
+}
+
+
+@media (max-width:702px){
+  
     .category .image-category img{
         width: 80px;
     }
@@ -351,15 +366,15 @@ header{
     }
 
     .search{
-        width: 200px;
+        width: 230px;
         position: relative;
         margin: 0 auto;
+        height: 20px;
     }
 
     .search i{
         font-size: 14px;
-        margin-top: 0.4rem;
-        margin-left: -0.5rem
+       
     }
 }
 
@@ -375,7 +390,6 @@ header{
         padding: 0;
         margin: 0 auto;
     }
-
 
     .image-recommend{
         margin: 0 auto;
