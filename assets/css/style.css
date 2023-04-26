@@ -134,7 +134,7 @@ header{
     width: 200px;
 }
 
-.image-category img:hover{
+.category .image-category img:hover{
     transform: scale(1.05);
 }
 
@@ -258,7 +258,8 @@ header{
 
 /*Responsivo*/
 
-@media (max-width:1500px){
+@media (max-width:1200px){
+
 
     .menu{
         display: block;
@@ -319,8 +320,12 @@ header{
         left: 0;
     }
 
+    .category{
+        margin-top: 3rem;
+    }
+
     .category .image-category{
-        padding: 1.3rem 5rem 0 5rem;
+        padding: 1.4rem 5rem 0 5rem;
     }
 
     .category .image-category h2{
@@ -328,9 +333,9 @@ header{
     }
 }
 
-@media (max-width: 1060px){
-    header{
-        width: 100%;
+@media (max-width: 1500px){
+    html{
+        font-size: 49.8%;
     }
 
     .image-category img{
