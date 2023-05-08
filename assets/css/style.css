@@ -134,7 +134,7 @@ header{
     width: 200px;
 }
 
-.category .image-category img:hover{
+.image-category img:hover{
     transform: scale(1.05);
 }
 
@@ -188,13 +188,56 @@ header{
 }
 
 .recommend{
-    width: 90%;
-    margin: 0 auto
+    width: 1245px;
 }
 
 .recommend h1{
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 500;
+    padding-left: 13rem;
+    font-weight: bold;
+}
+
+.info-recommend{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #838383;
+    height: 1100px;
+    width: 90%;
+    left: 6rem;
+    top: 22rem;
+    display: flex;
+    justify-content: center;
+}
+
+.info-recommend .description-info-recommend{
+    margin-top: 4rem;
+    width: 36%;
+    text-align: left;
+    line-height: 45px;
+}
+
+.info-recommend .description-info-recommend h3{
+    font-size: 42px;
+    text-align: center;
+}
+
+.info-recommend .description-info-recommend p{
+    font-size: 36px;
+    margin-top: 2rem;
+}
+
+.info-recommend .description-info-recommend .valor{
+    color: #459C26;
+    font-size: 36px;
+    padding-top: 16rem;
+}
+
+.info-recommend img{
+    width: 40%;
+    height: 90%;
+    margin-right: 20rem;
+    margin-top: 3rem;
 }
 
 
@@ -202,26 +245,18 @@ header{
     width: 40%;
     cursor: pointer;
     line-height: 35px;
-    padding-right: 100px;
-    margin: 0 100px 0 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    margin-top: 3rem;
+    padding-left: 13rem;
 }
 
 .image-recommend p{
     color: #FF0303;
-    text-align: center;
-    padding-right: 40px;
+    text-align: center;  
 }
 
-.image-recommend h3{
-    padding-right: 40px;
-}
 
 .image-recommend img{
     width: 300px;
-   
 }
 
 .row{
@@ -235,9 +270,79 @@ header{
     transform: scale(1.1);
 }
 
+.highlights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
 
+.content-highlights{
+    padding: 0 4rem 0 4rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    height: 3rem;
+    margin-top: 4rem;
+    width: 22rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
 
+.lojas{
+    width: 80%;
+    cursor: pointer;
+}
 
+.content-lojas{
+display: flex;
+}
+
+.section_Lojas{
+    flex-direction: column;
+    display: flex;
+}
+
+.lojas_esquerda{
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+}
+
+.lojas h1{
+    font-size: 38px;
+    margin: 9rem 0 7rem 18rem;
+}
+
+.section-loja img{
+    width: 180px;
+    height: 160px;
+}
+
+.section-loja{
+    margin: 0 auto;
+    display: flex;
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 640px;
+    height: 220px;
+    padding-top: 21px;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+}
+
+.description_loja{
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description_loja p{
+    font-size: 20px;
+}
 
 
 
@@ -258,7 +363,7 @@ header{
 
 /*Responsivo*/
 
-@media (max-width:1200px){
+@media (max-width:1500px){
 
 
     .menu{
@@ -320,12 +425,8 @@ header{
         left: 0;
     }
 
-    .category{
-        margin-top: 3rem;
-    }
-
     .category .image-category{
-        padding: 1.4rem 5rem 0 5rem;
+        padding: 1.3rem 5rem 0 5rem;
     }
 
     .category .image-category h2{
@@ -333,9 +434,9 @@ header{
     }
 }
 
-@media (max-width: 1500px){
-    html{
-        font-size: 49.8%;
+@media (max-width: 1060px){
+    header{
+        width: 100%;
     }
 
     .image-category img{
@@ -345,11 +446,17 @@ header{
     .search{
         width: 400px;
     }
+
 }
 
 
 @media (max-width:702px){
   
+    .content-highlights{
+       
+        font-size: 98%;
+    }
+
     .category .image-category img{
         width: 80px;
     }
@@ -381,20 +488,6 @@ header{
         font-size: 14px;
        
     }
-}
-
-@media (max-width: 1500px){
-    .row{
-        flex-direction: column;
-        gap: 5rem;
-        margin-top: 3rem;
-    }
-
-    .image-recommend img{
-        width: 200px;
-        padding: 0;
-        margin: 0 auto;
-    }
 
     .image-recommend{
         margin: 0 auto;
@@ -423,5 +516,27 @@ header{
         text-align: center;
         margin-top: 2rem;
     }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1510px){
+    
+    .row{
+       flex-wrap: wrap;
+       display: flex;
+    }
+
+    .image-recommend img{
+        width: 40%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    
+
 }
 
