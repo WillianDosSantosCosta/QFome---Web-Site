@@ -199,45 +199,90 @@ header{
 }
 
 .info-recommend{
+    left: 50%;
     position: absolute;
+    transform: translateX(-50%);
     background-color: #fff;
     border: 1px solid #838383;
-    height: 1100px;
-    width: 90%;
-    left: 6rem;
+    height: 590px;
+    width: 1400px; 
     top: 22rem;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+
 .info-recommend .description-info-recommend{
-    margin-top: 4rem;
     width: 36%;
     text-align: left;
     line-height: 45px;
 }
 
 .info-recommend .description-info-recommend h3{
-    font-size: 42px;
+    font-size: 30px;
     text-align: center;
 }
 
 .info-recommend .description-info-recommend p{
-    font-size: 36px;
-    margin-top: 2rem;
+    font-size: 24px;
 }
 
 .info-recommend .description-info-recommend .valor{
     color: #459C26;
-    font-size: 36px;
-    padding-top: 16rem;
+    font-size: 24px;
+}
+
+.comprar .adicionar-quantidade{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.comprar .adicionar-quantidade p {
+    padding: 10px;
+}
+
+.comprar .adicionar-quantidade .valor-total{
+    display: flex;
+    margin-left: 7rem;
+    background-color: #FF0000;
+    border-radius: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.adicionar_quantidade{
+    border: 1px solid #848484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.adicionar-quantidade .adicionar_quantidade span{
+    font-size: 46px;
+    font-weight: bold;
+    padding: 0 30px 0 30px;
+    cursor: pointer;
+}
+
+.adicionar-quantidade .adicionar_quantidade #adicionar-mais{
+color: #FF0000;
+}
+
+.adicionar-quantidade .adicionar_quantidade #adicionar-menos{
+    color: #FF8C8C;
+}
+
+.adicionar-quantidade .adicionar_quantidade p{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .info-recommend img{
-    width: 40%;
-    height: 90%;
-    margin-right: 20rem;
-    margin-top: 3rem;
+    width: 400px;
+    margin-right: 15rem;
+    height: 430px;
 }
 
 
