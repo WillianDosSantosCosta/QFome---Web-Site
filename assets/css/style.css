@@ -188,7 +188,8 @@ header{
 }
 
 .recommend{
-    width: 1245px;
+    width: 100%;
+    
 }
 
 .recommend h1{
@@ -210,6 +211,18 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
+}
+
+#fechar-description-recommend{
+    font-size: 20px;
+    position: relative;
+    top: -15rem;
+    right: -37rem;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    color: #838383;
 }
 
 
