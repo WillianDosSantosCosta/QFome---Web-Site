@@ -237,6 +237,41 @@ header{
     padding: 8px;
 }
 
+.Combos-mec{
+    max-width: 90%;
+    display: flex;
+    background-color: #00000036;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    height: 550px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.row-combo{
+    width: 420px;
+    height: 510px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.row-combo p{
+    font-size: 15px;
+}
+
+.row-combo span{
+    color: #0F6C00;
+    font-size: 24px;
+    margin-top: 3rem;
+}
+
 
 
 
