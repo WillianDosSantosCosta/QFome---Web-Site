@@ -131,7 +131,7 @@ header{
 }
 
 .image-category img{
-    width: 200px;
+    width: 300px;
 }
 
 .image-category img:hover{
@@ -314,7 +314,7 @@ color: #FF0000;
 
 
 .image-recommend img{
-    width: 300px;
+    width: 330px;
 }
 
 .row{
@@ -332,7 +332,7 @@ color: #FF0000;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 150px;
 }
 
 .content-highlights{
@@ -353,6 +353,7 @@ color: #FF0000;
 .lojas{
     width: 80%;
     cursor: pointer;
+    padding-bottom: 10rem;
 }
 
 .content-lojas{
