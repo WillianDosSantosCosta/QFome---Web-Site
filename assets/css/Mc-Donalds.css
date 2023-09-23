@@ -133,11 +133,11 @@ header{
 #cart-container{
     position: fixed;
     right: 0;
-    top: 10rem;
+    bottom: 12rem;
     border: 1px solid #080808;
-    width: 700px;
+    width: 550px;
     background-color: #fff;
-    height: 928px; 
+    height: 800px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,6 +152,7 @@ header{
     top: 10rem;
     font-size: 50px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #cart-container span{

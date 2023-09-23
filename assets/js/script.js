@@ -25,24 +25,6 @@ closeCartButton.addEventListener('click', function() {
 
 
 
-/*cart recomendados*/
-var imagem = document.getElementsByClassName("img-cart");
-var descricao = document.getElementsByClassName("description-info-recommend");
-var fechar = document.getElementById("fechar-description-recommend");
-
-imagem.addEventListener("click", function() {
-  descricao.style.display = "block";
-});
-
-fechar.addEventListener("click", function() {
-  descricao.style.display = "none";
-});
-
-
-
-
-
-
 
 
 

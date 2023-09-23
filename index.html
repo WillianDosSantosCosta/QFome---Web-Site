@@ -8,83 +8,89 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/58cf2f9efb.js" crossorigin="anonymous"></script>    
+<script src="https://kit.fontawesome.com/58cf2f9efb.js" crossorigin="anonymous"></script>    
     <title>Página Inicial Q-Fome</title>
 </head>
 <body>
     <header>
-        <img src="assets/imagens/logo.png" alt="logo" width="150px">
-        <nav class="navigation">
-            <div class="links">
-                <a href="#">Início</a>
-                <a href="#">Restaurante</a>
-                <a href="#">Mercado</a>
-                <a href="#">Bebida</a>
-                <a class="conta" href="Login.html">Conta</a>
-            </div>
-
-            <div class="search">
-                <input type="text" placeholder="Busque por item ou loja">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <div class="endereco">
-                <p>Av.Monteiro</p>
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-
-            <div class="icons">
-                
-                <a href="Login.html"><i class="fa-solid fa-user"></i></a>
-                <div id="cart-shop">
-                    <i class="fa-solid fa-cart-shopping" id ="fechar" ></i>
-                </div>
-                <div>
-                    <p>R$0,00 <br>0 itens</p>
-                </div>
+        <a href="index.html"><img src="assets/imagens/logo.png" alt="logo" width="80px"></a>        
+            <nav class="navigation">
+                <div class="links">
+                    <a href="#">Início</a>
+                    <a href="#">Restaurante</a>
+                    <a href="#">Mercado</a>
+                    <a href="#">Bebida</a>
+                    <a class="conta" href="Login.html">Conta</a>
                 </div>
 
-                <div class="menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div class="search">
+                    <input type="text" placeholder="Busque por item ou loja">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
 
-                <div id="cart-container">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <p>Sua sacola está vazia</p>
-                    <span><p>Adicione itens</p></span>
-                    <span id="close-cart-button">X</span>
-                </div>
-       </nav>
+              
+                    <div class="endereco">
+                        <p>Av.Monteiro</p>
+                        <i class="fa-solid fa-chevron-down" width="48px"></i>
+                    </div>
+
+                    <div class="icons">
+                        
+                        <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+                        <div id="cart-shop">
+                            <i class="fa-solid fa-cart-shopping" width="40px" id ="fechar" ></i>
+                        </div>
+                        <div>
+                            <p>R$0,00 <br>0 itens</p>
+                        </div>
+                        </div>
+             
+
+                    <div class="menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+                    <div id="cart-container">
+                        <i class="fa-solid fa-cart-shopping" width="40px"></i>
+                        <p>Sua sacola está vazia</p>
+                        <span><p>Adicione itens</p></span>
+                        <span id="close-cart-button">X</span>
+                    </div>
+                </nav>
     </header>
 
     <!--Ínicio Categoria-->
      <section class="category limit-width">
-        <div class="image-category">
-            <img src="assets/imagens/image_humburguer-restaurante.png" alt="hamburger-restaurante">
-            <h2>Restaurantes</h2>
-        </div>
-        <div class="image-category">
-            <img src="assets/imagens/imagem_Mercado.png" alt="Mercado">
-            <h2>Mercados</h2>
-        </div>
-        <div class="image-category">
-            <img src="assets/imagens/imagem_Bebida.png" alt="Bebida">
-            <h2>Bebidas</h2>
-        </div>
+        <div class="section-category">
+            <div class="image-category">
+                <img src="assets/imagens/image_humburguer-restaurante.png" alt="hamburger-restaurante">
+                <h2>Restaurantes</h2>
+            </div>
 
-    </section>
+            <div class="image-category">
+                <img src="assets/imagens/imagem_Mercado.png" alt="Mercado">
+                <h2>Mercados</h2>
+            </div>
+
+            <div class="image-category">
+                <img src="assets/imagens/imagem_Bebida.png" alt="Bebida">
+                <h2>Bebidas</h2>
+            </div>
+        </div>
+        </section>
     <!--Fim Categoria-->
 
 
     <!--Ínicio recomendados-->
-    <section class="recommend">
+    <section class="recommend limit-width">
             <h1>Recomendados</h1>
         <div class="row">
             <div class="image-recommend">
                 <img src="/assets/imagens/Mega Stacker2.0.png" class="img-cart" alt="mega stacker" >
                 <h3>MEGA STACKER 2.0</h3>
-                <p>R$40,90</p>
+                <span>R$40,90<span/>
             </div>
 
             <div class="info-recommend">
@@ -94,7 +100,7 @@
                     <h3>MEGA STACKER 2.0</h3>
                     <p>Um hambúrguer com duas carnes bovinas grelhadas de 113g, pão com gergelim, 
                     queijo derretido, fatias de bacon crocante e o exclusivo molho bk stacker.</p>
-                    <p class="valor">R$40,90</p>
+                    <span>R$40,90</span>
 
                     <div class="comprar">
                         <div class="adicionar-quantidade">
@@ -115,19 +121,19 @@
             <div class="image-recommend">
                     <img src="assets/imagens/McOferta Média Classica.png" alt="McOferta" id="img-cart">
                     <h3>MCOFERTA MÉDIA CLÁSSICA + NUGGETS 4 OU CHEESEBURGUER OU MCFLURRY</h3>
-                    <p>R$35,90</p>
+                    <span>R$35,90</span>
                 </div>
 
             <div class="image-recommend">
                 <img src="assets/imagens/File de alcatra.png" alt="File" id="img-cart">
                 <h3>FILÉ DE ALCATRA GRELHADO EM TIRAS</h3>
-                <p>R$42,90</p>
+                <span>R$42,90</span>
             </div>
 
             <div class="image-recommend" id="a">
                 <img src="assets/imagens/steak churrasco.png" alt="steak" id="img-cart">
                 <h3>SUB 15CM STEAK CHURRASCO</h3>
-                <p>R$21,50</p>
+                <span>R$21,50</span>
             </div>  
         </div>
     </section>
@@ -188,6 +194,8 @@
                 </div>
             </div>
 
+
+
             <div class="lojas_direita">
                 <div class="section_Lojas">
                     <div class="section-loja">
@@ -207,7 +215,7 @@
                     </div>
 
                     <div class="section-loja">
-                        <img src="assets/imagens/suco bagaço.png" width="140px" alt="burguerking">
+                        <img src="assets/imagens/suco bagaço.png" alt="burguerking">
                         <div class="description_loja">
                             <h3>Suco Bagaço - North Shop. Barretos</h3>
                             <p>Bares  1,2km <br>29-39 min R$6,99<br></p>
@@ -215,7 +223,7 @@
                     </div>
 
                     <div class="section-loja">
-                        <img src="/assets/imagens/subway logo.png" alt="burguerking" width="140px">
+                        <img src="/assets/imagens/subway logo.png" alt="burguerking">
                         <div class="description_loja">
                             <h3>SubWay - North Shop. Barretos</h3>
                             <p>Lanches  1,2km <br>29-39 min R$6,99<br></p>
@@ -227,10 +235,6 @@
     </section>
 
     <!--Fim Lojas-->
-
-
-
-
     
     
     
